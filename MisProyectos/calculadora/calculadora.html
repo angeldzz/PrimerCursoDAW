@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input id="tf1" type="text" disabled value="Introduzca numero">
+        <div class="botonera">
+            <div class="fila123">
+                <button onclick="setNumero(1)">1</button>
+                <button onclick="setNumero(2)">2</button>
+                <button onclick="setNumero(3)">3</button>
+                <button onclick="setNumero(0)">0</button>
+                
+                
+            </div>
+            <div class="fila456">
+                <button onclick="setNumero(4)">4</button>
+                <button onclick="setNumero(5)">5</button>
+                <button onclick="setNumero(6)">6</button>
+                <button id="btnblack" onclick="setOperador('*')">*</button>
+                
+            </div>
+            <div class="fila789">
+                <button onclick="setNumero(7)">7</button>
+                <button onclick="setNumero(8)">8</button>
+                <button onclick="setNumero(9)">9</button>
+                <button id="btnblack" onclick="setOperador('/')">/</button>
+            </div>
+            <div class="fila0">
+                <button id="btnblack" onclick="borrar()">C</button>
+                <button id="btnblack" onclick="setOperador('+')">+</button>
+                <button id="btnblack" onclick="setOperador('-')">-</button>
+                <button id="btnblack" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

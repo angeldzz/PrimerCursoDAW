@@ -1,0 +1,27 @@
+{
+  "Equipo Baloncesto":{
+    "Nombre del equipo":"Chicago Bulls",
+    "Color de la equipación":"Rojo",
+    "Nombre del estadio":"United Center",
+    "Nombre del entrenador":"Billy Donovan",
+    "Plantilla real?":false,
+    "Pagina Web":"https://www.nba.com/bulls",
+    "Jugadores":[
+      {
+        "Posicion":"Base",
+        "Nombre":"Jevon Carter",
+        "Dorsal":"5"
+      },
+      {
+        "Posicion":"pivot",
+        "Nombre":"Nikola Vicevic",
+        "Dorsal":"9"
+      },
+      {
+        "Posicion":"Ala-pivot",
+        "Nombre":"Javonte Green",
+        "Dorsal":"24"
+      }
+    ]
+  }
+}

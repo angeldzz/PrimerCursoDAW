@@ -1,0 +1,152 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="conflictos_internacionales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="conflicto" maxOccurs="100">
+          <xs:complexType>
+            <xs:sequence>
+            <xs:element name="nombre">
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="xs:string">
+                    <xs:attribute name="en_curso">
+                      <xs:simpleType>
+                        <xs:restriction>
+                          <xs:enumeration value="true"/>
+                          <xs:enumeration value="false"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:attribute>
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+              <xs:element name="victimas" type="xs:integer"/>
+              <xs:element name="informacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="paises_involucrados">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="pais" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="fuerza" use="required">
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:enumeration value="alta"/>
+                                        <xs:enumeration value="media"/>
+                                        <xs:enumeration value="baja"/>
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="causas_principales">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="causa" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="tipo" use="required">
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:enumeration value="fuerte"/>
+                                        <xs:enumeration value="media"/>
+                                        <xs:enumeration value="debil"/>
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="resolucion">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="esfuerzos">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="diplomatico">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="nivel" use="required">
+                                          <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                              <xs:minInclusive value="1"/>
+                                              <xs:maxInclusive value="9"/>
+                                            </xs:restriction>
+                                          </xs:simpleType>
+                                        </xs:attribute>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="militar">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="nivel" use="required">
+                                          <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                              <xs:minInclusive value="1"/>
+                                              <xs:maxInclusive value="9"/>
+                                            </xs:restriction>
+                                          </xs:simpleType>
+                                        </xs:attribute>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="acuerdo_paz" type="xs:boolean" use="required"/>
+                        <xs:attribute name="alto_al_fuego" type="xs:boolean" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="clave_conflicto" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                      <xs:attribute name="clave">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:pattern value="[A-Z][1-9][a-z][1-9]"/>
+                          </xs:restriction>
+                        </xs:simpleType>
+                     </xs:attribute>
+                </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                  <xs:minInclusive value="1"/>
+                  <xs:maxInclusive value="100"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

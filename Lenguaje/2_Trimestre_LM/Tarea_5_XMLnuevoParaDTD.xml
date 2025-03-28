@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alquiler [
+  <!ELEMENT alquiler (peliculas?)>
+    
+    <!ATTLIST alquiler codigo ID #REQUIRED>
+    <!ATTLIST alquiler fecha CDATA #IMPLIED>
+    <!ELEMENT peliculas (pelicula+)>
+    <!ELEMENT pelicula (actriz|actor)*>
+    <!ATTLIST pelicula id_pelicula ID #REQUIRED>
+    <!ATTLIST pelicula caratula CDATA #IMPLIED>
+    <!ATTLIST pelicula titulo CDATA #IMPLIED>
+    <!ATTLIST pelicula genero (Comedia|Thriller|Drama|Accion) #REQUIRED>
+    <!ATTLIST pelicula duracion CDATA "100min">           
+    
+    <!ELEMENT actor EMPTY>
+    <!ELEMENT actriz EMPTY>
+    <!ATTLIST actor nombre CDATA #REQUIRED>
+     <!ATTLIST actor apellido CDATA #IMPLIED>
+    <!ATTLIST actriz  nombre CDATA #REQUIRED>
+    <!ATTLIST actriz apellido CDATA #IMPLIED>
+]>
+<alquiler codigo="a2" fecha="20/01/2024">
+   <peliculas>
+     <pelicula id_pelicula="p1" caratula="foto1.png" titulo="Fast And Furius X" genero="Accion" duracion="219min">
+        <actriz nombre="Michelle" apellido="Rodriguez" />
+        <actor nombre="Vin" apellido="Diesel" />
+        <actor nombre="Jason" apellido="Momoa" />
+        <actriz nombre="Brie" apellido="Larson" />
+        <actor nombre="Jason" apellido="Statham" />
+      </pelicula>
+     <pelicula id_pelicula="p2" caratula="foto2.png" titulo="Tokio Drift" genero="Drama" duracion="104min">
+        <actor nombre="Lucas" apellido="Black" />
+        <actor nombre="Sung" apellido="Kang" />
+        <actriz nombre="Nikki" apellido="Griffin" />
+      </pelicula>
+           <pelicula id_pelicula="p3" caratula="foto3.png" titulo="El Conjuro" genero="Thriller" duracion="112min">
+        <actriz nombre="Joey" apellido="King" />
+        <actor nombre="Patrick" apellido="Wilson" />
+        <actor nombre="Shannon" apellido="Kook" />
+      </pelicula>
+           <pelicula id_pelicula="p4" caratula="foto4.png" titulo="Niños grandes" genero="Comedia" duracion="132min">
+        <actor nombre="Adam" apellido="Sandler" />
+        <actor nombre="Kevin" apellido="James" />
+        <actor nombre="Chris" apellido="Rock" />
+        <actriz nombre="Salma" apellido="Hayek" />
+      </pelicula>
+   </peliculas>
+  </alquiler>

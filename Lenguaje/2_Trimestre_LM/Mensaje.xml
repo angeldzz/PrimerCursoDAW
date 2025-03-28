@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prueba.css"?>
+<mensaje>
+  <ordenante>
+    <nombre>Roberto</nombre>
+    <apellidos>Movilla</apellidos>
+    <direccion>General Ricardos 56</direccion>
+    <provincia>Madrid</provincia>
+  </ordenante>
+  <destinatario>
+    <nombre>Alicia</nombre>
+    <apellidos>Abad</apellidos>
+    <direccion>Plaza de la Duquesa 12</direccion>
+    <provincia>Albacete</provincia>
+  </destinatario>
+  <contenido>
+    <producto id="457">
+      <tipo>Cortadora de cesped</tipo>
+      <cantidad>1</cantidad>
+      <observaciones>Que sea  electrica</observaciones>
+    </producto>
+    <producto id="401">
+      <tipo>Podadora de setos</tipo>
+      <cantidad>3</cantidad>
+    </producto>
+  </contenido>
+  <observaciones>Es urgente</observaciones>
+  <observaciones>Lo recogerá su mujer</observaciones>
+</mensaje>

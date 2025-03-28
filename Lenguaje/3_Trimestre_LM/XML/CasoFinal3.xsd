@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pedidos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pedido">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice>
+                                <xs:element name="cliente" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="MOTE" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="NIF">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="\d{9}[A-Z]"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                 </xs:complexType>
+                                </xs:element>
+                                <xs:element name="empresa" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:attribute name="numero">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:pattern value="\d{4}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                                <xs:element name="productos" type="xs:string" maxOccurs="unbounded"/>
+                                <xs:element name="fecha" type="xs:date" maxOccurs="unbounded"/>
+                                <xs:element name="factura" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="emisor" type="xs:string" maxOccurs="unbounded"/>
+                                            <xs:element name="total" type="xs:int" maxOccurs="unbounded"/>
+                                            <xs:element name="fecha_fact" type="xs:date" maxOccurs="unbounded"/>
+                                        </xs:sequence>
+                                        <xs:attribute name="numfactura">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="fact\d{3}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                        <xs:attribute name="cliente_factura">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="\d{9}[A-Z]"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:complexType>
+                                </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

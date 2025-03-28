@@ -1,0 +1,50 @@
+{
+    "empleados": {
+        "persona": [
+            {
+                "sexo": "Mujer",
+                "nombre": "Maria Fernandez",
+                "nacimiento": {
+                    "dia": 1,
+                    "mes": "Junio",
+                    "año": 1973
+                },
+                "direccion": {
+                    "CP": 28731,
+                    "calle": "C/Alcala",
+                    "Provincia": "Mad"
+                }
+            },
+            {
+                "sexo": "Hombre",
+                "nombre": "Juan Jiménez",
+                "nacimiento": {
+                    "dia": 9,
+                    "mes": "Febrero",
+                    "año": 1990
+                },
+                "direccion": {
+                    "CP": 28001,
+                    "calle": "C/ Amatista",
+                    "Provincia": "Madrid"
+                }
+            },
+            {
+                "sexo": "Mujer",
+                "nombre": "Rosa García",
+                "direccion": [
+                    {
+                        "CP": 28003,
+                        "calle": "C/Huerta",
+                        "Provincia": "Madrid"
+                    },
+                    {
+                        "CP": 45006,
+                        "calle": "C/ Asturias",
+                        "Provincia": "Toledo"
+                    }
+                ]
+            }
+        ]
+    }
+}

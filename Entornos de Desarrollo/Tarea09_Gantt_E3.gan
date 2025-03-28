@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-02-15" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3307" locale="es_ES">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="57b9d4934117401b818e727435bc02f4" name="A" meeting="false" start="2021-06-10" duration="6" complete="0" expand="true">
+            <depend id="1" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="1" uid="8300bdc01688465faaeed66523dbf359" name="B" meeting="false" start="2021-06-15" duration="12" complete="0" expand="true">
+            <depend id="2" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="2" uid="5855acde6b1541f2921a83c82740d433" name="C" meeting="false" start="2021-06-26" duration="5" complete="0" expand="true">
+            <depend id="3" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="3" uid="a5712ee6fb2d44ebb084edcd1dfcc4c9" name="D" meeting="false" start="2021-06-30" duration="8" complete="0" expand="true">
+            <depend id="4" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="4" uid="c8cdbb95496c475983d5c7c12516aacd" name="E" meeting="false" start="2021-07-07" duration="10" complete="0" expand="true">
+            <depend id="5" type="2" difference="-2" hardness="Strong"/>
+            <depend id="7" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="5" uid="ed533e4a33fd4fe5a858094714f08412" name="F" meeting="false" start="2021-07-15" duration="6" complete="0" expand="true"/>
+        <task id="7" uid="a4399665af924a4882ca29bd03d5b470" name="G" meeting="false" start="2021-07-16" duration="5" complete="0" expand="true">
+            <depend id="8" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="8" uid="80211ebc0824460bb4f63ccef71b46cd" name="H" meeting="false" start="2021-07-20" duration="12" complete="0" expand="true"/>
+        <task id="9" uid="6936214f65bc42499101d50d3c856e5f" name="I" color="#8cb6ce" meeting="false" start="2021-07-20" duration="12" complete="0" expand="true"/>
+        <task id="10" uid="18ae20f84ffa4c2a873551dccdbd2212" name="J" meeting="false" start="2021-07-27" duration="13" complete="0" expand="true">
+            <depend id="11" type="2" difference="-1" hardness="Strong"/>
+            <depend id="12" type="2" difference="-1" hardness="Strong"/>
+            <depend id="13" type="2" difference="1" hardness="Strong"/>
+            <depend id="15" type="2" difference="-2" hardness="Strong"/>
+        </task>
+        <task id="11" uid="d8dd004fb61f40b7a6337a1c74996597" name="K" meeting="false" start="2021-08-08" duration="41" complete="0" expand="true">
+            <depend id="16" type="2" difference="1" hardness="Strong"/>
+            <depend id="17" type="2" difference="8" hardness="Strong"/>
+            <depend id="18" type="2" difference="12" hardness="Strong"/>
+            <depend id="19" type="2" difference="17" hardness="Strong"/>
+            <depend id="20" type="2" difference="17" hardness="Strong"/>
+        </task>
+        <task id="12" uid="ee72dc5de07449758eab613146c7cbb3" name="L" meeting="false" start="2021-08-08" duration="11" complete="0" expand="true"/>
+        <task id="13" uid="3ea0eb670ee547a1aab7f574f2d3a25a" name="M" meeting="false" start="2021-08-10" duration="17" complete="0" expand="true">
+            <depend id="14" type="2" difference="2" hardness="Strong"/>
+        </task>
+        <task id="14" uid="f8e387d70f544281b70e125b43235eb9" name="N" meeting="false" start="2021-08-29" duration="5" complete="0" expand="true"/>
+        <task id="15" uid="a3c8b89b54694943b1c25e681bfc9538" name="O" meeting="false" start="2021-08-07" duration="27" complete="0" expand="true"/>
+        <task id="16" uid="f6b711a30df84df4a28d30fbbc57bf7f" name="P" meeting="false" start="2021-09-19" duration="51" complete="0" expand="true"/>
+        <task id="17" uid="a95b21e65816401fac9b5e84f9c427c9" name="Q" meeting="false" start="2021-09-26" duration="32" complete="0" expand="true"/>
+        <task id="18" uid="be0997a0dabc49e188b1b00129ec2578" name="R" meeting="false" start="2021-09-30" duration="31" complete="0" expand="true"/>
+        <task id="19" uid="4831d979ff8441bca2f46d12bf26d2eb" name="S" meeting="false" start="2021-10-05" duration="26" complete="0" expand="true"/>
+        <task id="20" uid="2910c854c2e5401680f36eb98910ae1b" name="T" meeting="false" start="2021-10-05" duration="7" complete="0" expand="true">
+            <depend id="21" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="21" uid="e3545b43400741299da60950a7b70a79" name="U" meeting="false" start="2021-10-11" duration="9" complete="0" expand="true">
+            <depend id="22" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="22" uid="7f39517079534234848cc9b479ed7852" name="V" meeting="false" start="2021-10-19" duration="7" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

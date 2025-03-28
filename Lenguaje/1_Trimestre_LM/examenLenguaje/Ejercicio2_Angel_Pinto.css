@@ -1,0 +1,77 @@
+/*Angel Pinto Díaz*/
+section {
+    position: relative;
+    height: 500px;
+}
+
+#uno {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #1F6F00;
+    background-color: #FDFEB3;
+    border: 1px solid black;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    height: 190px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+#dos {
+    font-family: sans-serif;
+    background-color: #FEE5B3;
+    border: 1px solid black;
+    position: absolute;
+    left: 440px;
+    top: 60px;
+    height: 155px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+#tres {
+    position: absolute;
+    top: 270px;
+}
+
+.verde {
+    padding-bottom: 5px;
+    font-weight: bolder;
+    display: block;
+    color: #1F6F00;
+}
+
+input.ab {
+    display: block;
+    padding-bottom: 5px;
+    
+}
+
+textarea {
+    display: block;
+}
+
+select {
+    padding: 5px;
+    font-weight: bold;
+}
+button{
+    padding: 5px;
+    background-color: #B1FE93;
+    border-radius: 0%;
+    border: #1F6F00 solid 5px;
+    border-style: dashed;
+    color: #1F6F00;
+}
+button:hover{
+    padding: 5px;
+    background-color: #ec93fe;
+    border-radius: 0%;
+    border: #000000 solid 5px;
+}

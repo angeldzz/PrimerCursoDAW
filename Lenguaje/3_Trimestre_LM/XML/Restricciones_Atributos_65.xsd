@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="netflix">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="serie" maxOccurs="unbounded">
+          <xs:attribute name="nombre" type="xs:string" use="required"/>
+          <xs:attribute name="genero" use="required">
+            <xs:SimpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="suspense"/>
+                <xs:enumeration value="ficcion"/>
+                <xs:enumeration value="comedia"/>
+                <xs:enumeration value="variado"/>
+              </xs:restriction>
+            </xs:SimpleType>  
+          </xs:attribute>
+          <xs:attribute name="temporadas" use="required">
+            <xs:SimpleType>
+              <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="9"/>
+              </xs:restriction>
+            </xs:SimpleType>  
+          </xs:attribute>
+          <xs:attribute name="anio_inicio" type="xs:integer" use="required">
+            <xs:SimpleType>
+              <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="2024"/>
+              </xs:restriction>
+            </xs:SimpleType>  
+          </xs:attribute>
+          <xs:attribute name="estado" use="optional">
+            <xs:SimpleType >
+              <xs:restriction>
+                <xs:enumeration value="emision"/>
+                <xs:enumeration value="finalizada"/>
+                <xs:enumeration value="cancelada"/>
+              </xs:restriction>
+            </xs:SimpleType>
+          </xs:attribute>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

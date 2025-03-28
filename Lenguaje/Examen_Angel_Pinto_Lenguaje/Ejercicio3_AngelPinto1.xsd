@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Angel Pinto Diaz -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="hogwarts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="casas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="casa" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="escudo" use="required" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="magos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="mago" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="nacimiento" minOccurs="0" type="xs:date"/>
+                                        <xs:element name="Caracteristicasfisicas"
+                                            maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element name="pelo" minOccurs="0" maxOccurs="unbounded"
+                                                        type="xs:string" />
+                                                    <xs:element name="ojos" minOccurs="0" maxOccurs="unbounded"
+                                                        type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Caracteristicasmagicas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Patronus" type="xs:string" />
+                                                    <xs:element name="varita" minOccurs="0" maxOccurs="unbounded"
+                                                        type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="casa" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                                <xs:minInclusive value="0"></xs:minInclusive>
+                                                <xs:maxInclusive value="4"></xs:maxInclusive>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="ocupacion" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="alumno"></xs:enumeration>
+                                                <xs:enumeration value="profesor"></xs:enumeration>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="mote"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="firma" use="required" />
+            <xs:attribute name="enlace" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

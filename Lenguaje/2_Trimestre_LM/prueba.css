@@ -1,0 +1,68 @@
+mensaje {
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(131, 131, 131);
+    font-size: 20px;
+  }
+ordenante {
+    background-color: rgb(255, 103, 103);
+    width: 300px;
+    display: block;
+    border: 2px solid red;
+    padding: 10px;
+    color: rgb(77, 77, 77);
+  }
+  ordenante > * {
+    display: block;
+    margin-bottom: 10px;
+  }
+  destinatario > * {
+    display: block;
+    margin-bottom: 5px;
+  }
+  contenido > * {
+    display: block;
+    margin-bottom: 5px;
+  }
+  destinatario {
+    background-color: rgb(70, 161, 70);
+    width: 300px;
+    display: block;
+    border: 2px solid green;
+    padding: 10px;
+    color: rgb(85, 85, 85);
+  }
+contenido {
+    width: 300px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+producto {
+    width: 300px;
+    background: blue;
+    display: block;
+    border: 2px solid blue;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+producto[id] {
+    width: 300px;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+tipo{
+    width: 300px;
+    background: blue;
+    color: white;
+    font-size: 25px;
+}
+observaciones {
+    width: 300px;
+    display: block;
+    margin-left: 10px;
+    color: rgb(34, 34, 34);
+  }

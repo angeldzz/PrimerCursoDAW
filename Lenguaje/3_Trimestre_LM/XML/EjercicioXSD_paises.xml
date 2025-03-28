@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paises xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicioXSD_paises.xsd">
+    <pais nombre="Etiopía">
+        <comida_tipica tipo="Pan">Injera</comida_tipica>
+        <comida_tipica tipo="Estofado">Doro Wat</comida_tipica>
+        <comida_tipica tipo="Bebida">Tej</comida_tipica>
+        <region>
+            <nombre>África Oriental</nombre>
+            <paisajes>
+                <paisaje>Montañas Simien</paisaje>
+                <paisaje>Lago Tana</paisaje>
+            </paisajes>
+            <poblacion>109000000</poblacion>
+        </region>
+    </pais>
+    <pais nombre="Nigeria">
+        <comida_tipica tipo="Arroz">Jollof Rice</comida_tipica>
+        <comida_tipica tipo="Brocheta">Suya</comida_tipica>
+        <region>
+            <nombre>África Occidental</nombre>
+            <paisajes>
+                <paisaje>Delta del Níger</paisaje>
+                <paisaje>Montañas Jos</paisaje>
+            </paisajes>
+            <poblacion>206000000</poblacion>
+        </region>
+    </pais>
+    <pais nombre="Kenia">
+        <comida_tipica tipo="Papilla">Ugali</comida_tipica>
+        <comida_tipica tipo="Asado">Nyama Choma</comida_tipica>
+        <region>
+            <nombre>África Oriental</nombre>
+            <paisajes>
+                <paisaje>Parque Nacional de Masái Mara</paisaje>
+                <paisaje>Lago Nakuru</paisaje>
+            </paisajes>
+            <poblacion>53700000</poblacion>
+        </region>
+    </pais>
+</paises>

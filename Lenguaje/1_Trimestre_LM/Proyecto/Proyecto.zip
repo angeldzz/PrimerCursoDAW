@@ -1,0 +1,111 @@
+body {
+  background-image: url(imagenes-contacta/fondocontacta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(38, 0, 255, 0);
+  text-align: left;
+  font-family: Arial rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 15px;
+  background: #202020;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(0, 0, 0, 0.3);
+
+
+}
+
+li.menu {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  width: 435px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: linear-gradient(to right, darkblue, rgb(70, 70, 70));
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+article {
+  top: 20px;
+  left: 500px;
+  width: 50%;
+  height: 70%;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(64, 3, 66), rgb(194, 194, 194));
+  padding: 20px;
+  color: aliceblue;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=enviar] {
+  width: 100%;
+  background: linear-gradient(to right, rgb(153, 46, 148), rgb(241, 241, 241));
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 395px;
+  width: 100px;
+
+}
+
+textarea {
+  border-radius: 8px;
+}
+
+input[type=enviar]:hover {
+  background: linear-gradient(to right, rgb(255, rgb(168, 47, 47)0, 70, 70));
+  box-sizing: border-box;
+}
+
+footer {
+  position: relative;
+  margin-top: 40px;
+  width: 30%;
+  left: 700px;
+}
+
+img.contact {
+  height: 24px;
+  width: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+}

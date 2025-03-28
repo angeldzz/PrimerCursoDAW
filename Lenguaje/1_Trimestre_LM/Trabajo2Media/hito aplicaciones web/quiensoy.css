@@ -1,0 +1,47 @@
+
+body
+  {
+    height: 640px;
+  background-image: url("http://www.startcomm.es/wp-content/uploads/2015/05/Freeimages_1428641_69358700_lr.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(129, 1, 112, 0.438);
+}
+h4{
+  text-align: right;
+}
+h5{
+  text-align: right;
+}
+h6{
+  text-align: right;
+}
+p {
+  font-weight: bold;
+  font-family:Georgia, Times, 'Times New Roman';
+  font-size: large;
+}

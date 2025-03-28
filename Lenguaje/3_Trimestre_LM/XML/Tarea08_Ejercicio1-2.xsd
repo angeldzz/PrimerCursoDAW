@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!--Ejercicio 1-->
+<xs:element name= "puertaCerrada" type= "xs:boolean"/>
+<xs:element name= "ventanaAbierta" type= "xs:date"/>
+
+<!--Ejercicio 2-->
+<xs:element name= "ciudad" type= "xs:string"/>
+<xs:element name= "fecha-de-nacimiento" type= "xs:date"/>
+<xs:element name= "hora" type= "xs:dateTime"/>
+<xs:element name= "nota" type= "xs:dateTime"/>
+<xs:element name= "apto" type= "xs:boolean"/>
+</xsd:schema>

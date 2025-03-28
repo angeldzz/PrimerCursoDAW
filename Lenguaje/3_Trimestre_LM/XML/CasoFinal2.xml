@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE expedientes [
+<!ELEMENT expedientes (expediente+) >
+  <!ELEMENT expediente (titulacion,estudiante,modulos)+>
+    <!ELEMENT titulacion (#PCDATA) >
+    <!ELEMENT estudiante (#PCDATA)>
+  <!ELEMENT modulos (modulo+)>
+    <!ELEMENT modulo (nombre+,aprobado+,curso?)>
+      <!ELEMENT nombre (#PCDATA)>
+      <!ELEMENT aprobado (#PCDATA)>
+      <!ELEMENT curso (#PCDATA)>
+]>
+<expedientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="CasoFinal2.xsd">
+  <expediente>
+    <titulacion>DAW</titulacion>
+    <estudiante>Ainhoa Garante Lizarraga</estudiante>  
+    <modulos>
+      <modulo>
+         <nombre>Sistemas Informáticos</nombre> 
+         <aprobado>true</aprobado>
+         <curso>Primero</curso>
+      </modulo>
+      <modulo>
+         <nombre>Lenguaje de marcas y sistemas de gestion de la informacion</nombre> 
+         <aprobado>true</aprobado>
+         <curso>Primero</curso>
+      </modulo>
+      <modulo>
+         <nombre>Programacion</nombre> 
+         <aprobado>false</aprobado>
+         <curso>Segundo</curso>
+      </modulo>
+    </modulos>
+  </expediente>
+  <expediente>
+    <titulacion>DAW</titulacion>
+    <estudiante>Fernando Soler Puig</estudiante>  
+    <modulos>
+    <modulo>
+         <nombre>Programacion</nombre> 
+         <aprobado>true</aprobado>
+         <curso>Primero</curso>
+      </modulo>
+      <modulo>
+         <nombre>Entornos de desarrollo</nombre> 
+         <aprobado>false</aprobado>
+         <curso>Segundo</curso>
+      </modulo>
+      <modulo>
+         <nombre>Diseño de interfaces Web</nombre> 
+         <aprobado>false</aprobado>
+         <curso>Segundo</curso>
+      </modulo>
+    </modulos>
+  </expediente>
+</expedientes>
+
+

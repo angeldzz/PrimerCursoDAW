@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE empleados [
+    <!ELEMENT empleados (persona+)>
+    <!ELEMENT persona (nombre+,nacimiento?,direccion*)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento (dia,mes,año)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT direccion (calle,provincia)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ATTLIST persona sexo CDATA #REQUIRED>
+    <!ATTLIST direccion CP CDATA #REQUIRED>
+]> -->
+<empleados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Repaso.xsd">
+    <persona sexo="Mujer">
+        <nombre>María Fernández</nombre>
+        <nacimiento>
+            <dia>01</dia>
+            <mes>Junio</mes>
+            <año>1973</año>
+        </nacimiento>
+        <direccion CP="28731">
+            <calle>C/Álcala</calle>
+            <provincia>Madrid</provincia>
+        </direccion>
+    </persona>
+    <persona sexo="Hombre">
+        <nombre>Juan Jiménez</nombre>
+        <nacimiento>
+            <dia>09</dia>
+            <mes>Febrero</mes>
+            <año>1990</año>
+        </nacimiento>
+        <direccion CP="28001">
+            <calle>C/ Amatista</calle>
+            <provincia>Madrid</provincia>
+        </direccion>
+    </persona>
+    <persona sexo="Mujer">
+        <nombre>Rosa García</nombre>
+        <direccion CP="28003">
+            <calle>C/Huerta</calle>
+            <provincia>Madrid</provincia>
+        </direccion>
+        <direccion CP="45006">
+            <calle>C/Asturias</calle>
+            <provincia>Toledo</provincia>
+        </direccion>
+    </persona>
+</empleados>

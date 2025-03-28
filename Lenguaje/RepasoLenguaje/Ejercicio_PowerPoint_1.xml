@@ -1,0 +1,25 @@
+<!DOCTYPE listaventas[
+<!ELEMENT listaventas (venta*)>
+<!ELEMENT venta (importe,comprador,vendedor,fecha?,codigofactura)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT comprador (#PCDATA)>
+<!ELEMENT vendedor (#PCDATA)>
+<!ELEMENT codigofactura (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+]>
+<listaventas>
+    <venta>
+          <importe>1500</importe>
+          <comprador>Wile E.Coyote</comprador>
+          <vendedor>ACME</vendedor>
+          <codigofactura>E17</codigofactura>
+    </venta>
+    <venta>
+          <importe>750</importe>
+          <comprador>Elmer Fudd</comprador>
+          <vendedor>ACME</vendedor>
+          <fecha>27-2-2015</fecha>
+          <codigofactura>E18</codigofactura>
+    </venta>
+  </listaventas>
+  

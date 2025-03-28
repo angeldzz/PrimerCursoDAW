@@ -1,0 +1,43 @@
+Ejercicio 1:
+
+Contenido del fichero datos_empresa1.csv
+
+101,Isabel Marant,Tecnología,4500,5
+102,Roberto Nieve,Recursos Humanos,3500,3
+103,Alicia Rivera,Ventas,2900,2
+104,Fernando Sol,Tecnología,4200,6
+105,Carla Domínguez,Marketing,3100,1
+106,Eduardo Lema,Recursos Humanos,3200,4
+107,Lucía Aranda,Finanzas,2800,3
+108,Mario Casas,Tecnología,4000,7
+109,Sofía Loren,Recursos Humanos,3600,5
+110,Pedro Almodóvar,Operaciones,3300,2
+
+Contenido del fichero datos_empresa2.csv
+
+201,Carmen Maura,Recursos Humanos,3700,4
+202,Antonio Banderas,Tecnología,3900,3
+203,Penélope Cruz,Ventas,2600,1
+204,Javier Bardem,Marketing,3400,5
+205,Maribel Verdú,Recursos Humanos,3100,2
+206,Alejandro Amenábar,Tecnología,4300,8
+207,Eduardo Noriega,Finanzas,2900,3
+208,Rossy de Palma,Recursos Humanos,3500,6
+209,Ángela Molina,Tecnología,4100,4
+210,Carlos Saura,Operaciones,2800,1
+=================================================
+Ejercicio 2:
+
+Contenido del fichero empleados.csv
+
+101,Juan Pérez,Recursos Humanos,2500,3
+102,Ana Gómez,Ventas,3000,2
+103,Carlos Sánchez,Tecnología,4000,5
+104,Lucía Hernández,Marketing,3500,4
+105,Mario Núñez,Operaciones,2800,1
+106,Elena Martí,Finanzas,3200,2
+107,Pedro Álvarez,Recursos Humanos,2700,3
+108,Clara López,Ventas,2900,1
+109,Sergio Jiménez,Tecnología,4500,6
+110,Rosa Díaz,Marketing,3100,3
+=================================================

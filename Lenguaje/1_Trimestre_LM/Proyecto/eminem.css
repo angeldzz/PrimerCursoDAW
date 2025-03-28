@@ -1,0 +1,187 @@
+* {
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-image: url(imagenes-eminem/fondoeminem.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-color 0.5s ease-in-out;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(38, 0, 255, 0);
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 15px;
+  background: #202020;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+li.menu {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  transition: .10s;
+  width: 435px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(126, 126, 126, 0.603);
+  border-style: double;
+}
+
+h1 {
+  font-size: 35px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+h1:hover {
+  font-size: 39px;
+}
+
+h2 {
+  font-size: 30px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+h2:hover {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+
+.artistas {
+  width: 550px;
+  height: 300px;
+  border-radius: 30px;
+  transition: border-radius 1s ease-in-out;
+}
+.artistas:hover{
+  width: 560px;
+  height: 310px;
+  border-radius: 10px;
+}
+aside{
+  position: absolute;
+  top: 150px;
+}
+article#abs {
+  position: relative;
+  top: 30px;
+  height: 500px;
+}
+article#dos {
+  position: relative;
+  top: 30px;
+  height: 500px;
+}
+article#tres {
+  position: relative;
+  left: 40px;
+  top: 30px;
+  height: 600px;
+}
+
+div.uno {
+  top: 100px;
+  position: absolute;
+  left: 60%;
+}
+#vid1{
+  position: absolute;
+left: 50px;
+top: 100px;
+  height: 400px;
+  width: 650px;
+  border-radius: 20px;
+  transition: border-radius 0.7s ease;
+  transition: left 1s ease-in-out;
+  transition: height 1s ease-in-out;
+  transition: width 1s ease-in-out;
+}
+#vid1:hover {
+  left: 30px;
+  border-radius: 0px;
+  height: 410px;
+  width: 700px;
+  transition: border-radius 0.7s ease;
+  transition: left 1s ease-in-out;
+  transition: height 1s ease-in-out;
+  transition: width 1s ease-in-out;
+}
+img#principal {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  border-radius: 50%;
+  transition: border-radius 0.7s ease;
+}
+img#principal:hover{
+  border-radius: 40px;
+}
+span{
+  color: rgb(139, 141, 0);
+  font-weight: bolder;
+  text-decoration: double;
+}
+#div1{
+  position: absolute;
+}
+#div2{
+  position: absolute;
+  left: 600px;
+}
+#div3{
+  position: absolute;
+  left: 1200px;
+  
+}
+#div4{
+  position: absolute;
+  top: 450px;
+}
+#div5{
+  position: absolute;
+  top: 450px;
+  left: 600px;
+}
+#div6{
+  position: absolute;
+  top: 450px;
+  left: 1200px;
+}
+footer{
+  position: relative;
+  margin-top: 40px;
+  width: 30%;
+  left: 680px;
+  top:250px;
+}
+img.contact{
+  height: 24px;
+  width: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+

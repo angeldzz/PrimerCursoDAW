@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alquiler [
+  <!ELEMENT alquiler (peliculas?)>
+    
+    <!ATTLIST alquiler codigo ID #REQUIRED>
+    <!ATTLIST alquiler fecha CDATA #IMPLIED>
+    <!ELEMENT peliculas (pelicula+)>
+    <!ELEMENT pelicula (actriz|actor)*>
+    <!ATTLIST pelicula id_pelicula ID #REQUIRED>
+    <!ATTLIST pelicula caratula CDATA #IMPLIED>
+    <!ATTLIST pelicula titulo CDATA #IMPLIED>
+    <!ATTLIST pelicula genero (Comedia|Thriller|Drama|Accion) #REQUIRED>
+    <!ATTLIST pelicula duracion CDATA "100min">           
+    
+    <!ELEMENT actor EMPTY>
+    <!ELEMENT actriz EMPTY>
+    <!ATTLIST actor nombre CDATA #REQUIRED>
+     <!ATTLIST actor apellido CDATA #IMPLIED>
+    <!ATTLIST actriz  nombre CDATA #REQUIRED>
+    <!ATTLIST actriz apellido CDATA #IMPLIED>
+]>
+<alquiler codigo="a1" fecha="18/01/2022">
+   <peliculas>
+     <pelicula id_pelicula="p320" caratula="foto_p0360" titulo="OLD SCHOOL" genero="Comedia" duracion="97min">
+        <actriz nombre="Ellen" apellido="Pompeo" />
+        <actor nombre="Luke" apellido="Wilson" />
+        <actor nombre="Will" apellido="Farrel" />
+        <actriz nombre="Elisa" apellido="Cuthbert" />
+        <actor nombre="Vince" apellido="Vaughnl" />
+      </pelicula>
+      <pelicula id_pelicula="p1001" titulo="Spiderman: Homecoming" genero="Accion" duracion="133min">
+        <actriz nombre="Zendaya" />
+        <actor nombre="Tom" apellido="Holland" />
+        <actor nombre="Robert" apellido="Downey Jr." />
+      </pelicula>
+   </peliculas>
+  </alquiler>
+

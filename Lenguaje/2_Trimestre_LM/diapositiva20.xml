@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <destinatario>
+        <nombre>Alicia Abad</nombre>
+        <direccion>Plaza de la Duquesa 12</direccion>
+        <ciudad>Albacete</ciudad>
+    </destinatario>
+    <ordenante>
+        <nombre>Roberto Movilla</nombre>
+        <direccion>General Ricardos 56</direccion>
+        <ciudad>Madrid</ciudad>
+    </ordenante>
+    <contenido>
+        <producto>
+            <nombre>cortadora de cesped</nombre>
+            <cantidad>1</cantidad>
+            <observaciones>debe ser electrica</observaciones>
+        </producto>
+        <producto>
+            <nombre>podadora para setos</nombre>
+            <cantidad>3</cantidad>
+        </producto>
+    </contenido>
+</pedido>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<!DOCTYPE personas [
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,nacimiento,Dirección)>
+<!ATTLIST persona sexo NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento (dia,Mes,Año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT Mes (#PCDATA)>
+<!ELEMENT Año (#PCDATA)>
+<!ELEMENT Dirección (Calle,Provincia)>
+<!ATTLIST Dirección CP NMTOKEN #REQUIRED>
+<!ELEMENT Calle (#PCDATA)>
+<!ELEMENT Provincia (#PCDATA)>
+]> 
+-->
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio_Repaso.xsd">
+    <persona sexo="Mujer">
+        <nombre>María Fernández</nombre>
+        <nacimiento>
+            <dia>01</dia>
+            <Mes>Junio</Mes>
+            <Año>1975</Año>
+        </nacimiento>
+        <Dirección CP="28731">
+            <Calle>C/ Álcala</Calle>
+            <Provincia>Madrid</Provincia>
+        </Dirección>
+    </persona>
+    <persona sexo="Hombre">
+        <nombre>Juan Jiménez</nombre>
+        <nacimiento>
+            <dia>09</dia>
+            <Mes>Febrero</Mes>
+            <Año>1990</Año>
+        </nacimiento>
+        <Dirección CP="28001">
+            <Calle>C/ Amatista</Calle>
+            <Provincia>Madrid</Provincia>
+        </Dirección>
+    </persona>
+</personas>

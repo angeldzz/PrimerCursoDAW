@@ -1,0 +1,72 @@
+/* Estilos generales para el cuerpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el campo de entrada */
+#tf1 {
+    width: 310px; /* Alinearlo con el ancho de la botonera */
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Estilos para la botonera */
+.botonera {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 310px; /* Ajustar el ancho de la botonera */
+}
+
+/* Estilos generales para todos los botones dentro de .botonera */
+.botonera button {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 20px; /* Aumentar el padding para hacer el botón más grande */
+    font-size: 24px; /* Aumentar el tamaño de la fuente */
+    border: none; /* Remover el borde */
+    border-radius: 50%; /* Bordes redondeados */
+    width: 70px; /* Establecer un ancho fijo */
+    height: 70px; /* Establecer una altura fija */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transición para cambios de color y tamaño */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de elevación */
+}
+
+/* Estilos específicos para botones con ID #btnblack */
+#btnblack {
+    background-color: #f59f00; /* Color de fondo negro */
+}
+
+/* Efectos al pasar el ratón por encima de los botones */
+.botonera button:hover {
+    background-color: rgb(255, 165, 0); /* Color de fondo más claro al pasar el ratón */
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño al pasar el ratón */
+}
+
+/* Efectos al hacer clic en los botones */
+.botonera button:active {
+    transform: scale(1); /* Volver al tamaño original al hacer clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reducir la sombra al hacer clic */
+}

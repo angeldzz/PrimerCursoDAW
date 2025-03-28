@@ -1,0 +1,33 @@
+h1{
+    color:#F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    perspective: 12cm;
+    animation: mover-izquierda-derecha 12s infinite;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
+h2{
+    color:#A00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+p,ul{
+color: #00F;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+.verde{
+    color:#060;
+}
+span{
+    color: #FF0000;
+    font-style: italic;
+    font-size: 20px;
+}

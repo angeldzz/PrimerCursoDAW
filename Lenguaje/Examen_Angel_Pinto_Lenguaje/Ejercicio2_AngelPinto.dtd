@@ -1,0 +1,20 @@
+<!-- Angel Pinto Diaz -->
+<!ELEMENT hogwarts (casas* , magos*)>
+<!ATTLIST hogwarts firma NMTOKEN #REQUIRED>
+<!ATTLIST hogwarts enlace CDATA #IMPLIED>
+<!ELEMENT casas (casa+)>
+<!ELEMENT casa EMPTY>
+<!ATTLIST casa escudo NMTOKEN #REQUIRED>
+<!ELEMENT magos (mago+)>
+<!ELEMENT mago (nombre,nacimiento?,Caracteristicasfisicas+,Caracteristicasmagicas+)>
+<!ATTLIST mago casa NMTOKEN #REQUIRED>
+<!ATTLIST mago ocupacion NMTOKEN #REQUIRED>
+<!ATTLIST mago mote CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT Caracteristicasfisicas (pelo?,ojos?)>
+<!ELEMENT pelo (#PCDATA)>
+<!ELEMENT ojos (#PCDATA)>
+<!ELEMENT Caracteristicasmagicas (Patronus,varita*)>
+<!ELEMENT Patronus (#PCDATA)>
+<!ELEMENT varita (#PCDATA)>

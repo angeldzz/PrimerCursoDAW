@@ -1,0 +1,73 @@
+<Documento>
+<cabecera>
+<parrafo color="blue">
+Viajero 1
+</parrafo>
+<salto>
+<parrafo color="blue">
+Datos de pasaporte
+</parrafo>
+<botón color="blue">
+Eliminar viajero
+</botón>
+<salto>
+</cabecera>
+<cuerpo>
+<parrafo estilo="n">
+Tenga mucho cuidado al copiar los datos del pasaporte
+</parrafo>
+<parrafo>
+El ESTA se vincula al pasaporte. Cualquier error tipográfico puede provocar que el ESTA no se vincule correctamente y por
+tanto no sea válido>
+</parrafo>
+<salto>
+<parrafo>
+Nacionalidad y código <salto> de país*
+</parrafo>
+<cajón_desplegable Descripción="España(ESP)">
+</cajón_desplegable Descripción="España(ESP)">
+<parrafo>
+Nº de pasaporte*
+</parrafo>
+<cajón_texto>
+<parrafo>
+Fecha de expedición*
+</parrafo>
+<cajón_fecha>
+<parrafo>
+Fecha de caducidad*
+</parrafo>
+<cajón_texto>
+<parrafo>
+DNI/NIF*
+</parrafo>
+<cajón_texto>
+<parrafo>
+Nombre*
+</parrafo>
+<cajón_texto>
+<parrafo>
+Apellidos*
+</parrafo>
+<cajón_texto>
+<parrafo>
+Sexo*
+</parrafo>
+<cajón_desplegable Descripción="Seleccione sexo...">
+Hombre <salto> Mujer
+</cajón_desplegable>
+<parrafo>
+Fecha de nacimiento*
+</parrafo>
+<cajón_fecha>
+<parrafo>
+Lugar de nacimiento*
+</parrafo>
+<cajón_texto>
+<parrafo>
+País de nacimiento*
+</parrafo>
+<cajón_desplegable Descripción="España(ESP)">
+</cajón_desplegable>
+</cuerpo>
+</Documento>

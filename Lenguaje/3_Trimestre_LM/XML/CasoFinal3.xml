@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Construye una DTD que permita almacenar pedidos de clientes, con las siguientes
+   características:
+Los pedidos tendrán los campos: empresa o cliente que realiza el pedido (uno u otro 
+pero no dos en el mismo pedido), productos solicitados (al menos uno), fecha, y 
+opcionalmente un elemento llamado factura.
+- El elemento empresa tendrá en su interior un número (atributo) que solo puede contener
+ valores entre 0000 y 9999.
+- El elemento cliente tendrá en su interior  un atributo obligatorio llamado NIF como
+identificador único y un elemento llamado MOTE de tipo textual.
+- El elemento factura se compone a su vez de los elementos emisor de tipo PCDATA, total
+(al menos 1) y fecha_fact de tipo PCDATA. Además tendrá dos atributos obligatorios:
+uno llamado numfactura que será identificador único y obligatorio y otro llamado
+cliente_factura, que será opcional.-->
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido ((empresa | cliente), productos, fecha, factura?)>
+<!ELEMENT empresa (#PCDATA)>
+<!ATTLIST empresa numero CDATA #REQUIRED>
+<!ELEMENT cliente (MOTE)>
+<!ATTLIST cliente NIF CDATA #REQUIRED>
+<!ELEMENT MOTE (#PCDATA)>
+<!ELEMENT productos (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT factura (emisor, total+, fecha_fact)>
+<!ATTLIST factura numfactura ID #REQUIRED cliente_factura CDATA #IMPLIED>
+<!ELEMENT emisor (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT fecha_fact (#PCDATA)>
+]>
+<pedidos>
+  <pedido>
+      <cliente NIF="12345678A">
+          <MOTE>Nombre del cliente</MOTE>
+      </cliente>
+      <productos>Producto 1, Producto 2</productos>
+      <fecha>2024-04-29</fecha>
+      <factura numfactura="fact001" cliente_factura="12345678A">
+          <emisor>Nombre del emisor</emisor>
+          <total>100</total>
+          <total>20</total>
+          <fecha_fact>2024-04-29</fecha_fact>
+      </factura>
+  </pedido>
+</pedidos>

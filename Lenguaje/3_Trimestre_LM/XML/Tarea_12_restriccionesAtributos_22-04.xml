@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<conflictos_internacionales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="Tarea_12_restriccionesAtributos_22-04.xsd">
+    <conflicto id="1">
+        <nombre en_curso="true">Guerra en Oriente Medio</nombre>
+        <victimas>10000</victimas>
+        <informacion>
+            <paises_involucrados>
+                <pais fuerza="alta">Israel
+                </pais>
+                <pais fuerza="baja">Palestina
+                </pais>
+            </paises_involucrados>
+            <causas_principales>
+                <causa tipo="fuerte">disputa territorial</causa>
+                <causa tipo="debil">conflicto_religioso</causa>
+            </causas_principales>
+            <resolucion acuerdo_paz="false" alto_al_fuego="true">
+                <esfuerzos>
+                    <diplomatico nivel="1">Naciones Unidas</diplomatico>
+                    <militar nivel="3">OTAN</militar>
+                </esfuerzos>
+            </resolucion>
+        </informacion>
+        <clave_conflicto clave="C5D9">inactiva</clave_conflicto>
+        <clave_conflicto clave="D6Y8">activa</clave_conflicto>
+    </conflicto>
+    <conflicto id="2">
+        <nombre en_curso="true">Conflicto en Sudán</nombre>
+        <victimas>15000</victimas>
+        <informacion>
+            <paises_involucrados>
+                <pais fuerza="alta">Sudán
+                </pais>
+                <pais fuerza="media">Sudán del Sur
+                </pais>
+            </paises_involucrados>
+            <causas_principales>
+                <causa tipo="fuerte">injerencia extranjera</causa>
+                <causa tipo="media">conflicto territorial</causa>
+                <causa tipo="debil">conflicto étnico</causa>
+            </causas_principales>
+            <resolucion acuerdo_paz="false" alto_al_fuego="false">
+                <esfuerzos>
+                    <diplomatico nivel="2">Unión Africana</diplomatico>
+                    <militar nivel="1">ONU</militar>
+                </esfuerzos>
+            </resolucion>
+        </informacion>
+        <clave_conflicto clave="A3T8">activa</clave_conflicto>
+    </conflicto>
+</conflictos_internacionales>

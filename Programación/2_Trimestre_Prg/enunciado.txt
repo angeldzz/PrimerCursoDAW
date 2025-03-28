@@ -1,0 +1,33 @@
+Ejercicio:
+
+
+Escribe un programa en Java que procese información de viajes a partir de un archivo CSV nombrado datos_viajes.csv. Este archivo contiene los siguientes datos para cada viaje: ID del viaje, destino, categoría del viaje 
+(Nacional o Internacional), y costo. El programa deberá realizar las siguientes tareas:
+--Leer el archivo datos_viajes.csv.
+--Separar los datos basándose en la categoría del viaje. 
+--Todos los viajes que pertenecen a la categoría Nacional deben ser escritos en el archivo nacionales.csv, y todos los viajes que pertenecen a la categoría Internacional deben ser escritos en el archivo internacionales.csv. 
+Para este ejercicio, asume que solo existen estas dos categorías para simplificar.
+--Cada archivo de salida debe contener las mismas columnas que el archivo de entrada: ID del viaje, destino, categoría, y costo. Incluir esta información en la primera línea como encabezado.
+Asegurarse de manejar posibles excepciones durante la lectura y escritura de archivos, tales como archivos no encontrados o problemas de permisos.
+Utiliza la clase FileReader para leer el archivo de entrada y FileWriter para escribir en los archivos de salida.
+Emplea BufferedReader y BufferedWriter para mejorar la eficiencia en la lectura y escritura de archivos. Para separar los campos de cada línea, puedes usar el método split() de la clase String, asumiendo que la coma (,)
+ es el delimitador de los campos en el archivo CSV.
+Asegúrate de cerrar todos los recursos de archivos al finalizar las operaciones de lectura y escritura para evitar fugas de recursos.
+Implementa manejo de excepciones adecuado para lidiar con posibles errores de entrada/salida usando bloques try-catch.
+Correcta lectura del archivo CSV de entrada.
+Adecuada separación y escritura de datos en los archivos correspondientes según la categoría del viaje.
+Implementación efectiva del manejo de excepciones.
+Uso correcto y eficiente de clases y métodos para la manipulación de archivos en Java.
+datos_viajes.csv
+
+ID,Viaje,Categoria,Costo
+1,Cancún,Nacional,5000
+2,Tokio,Internacional,15000
+3,Madrid,Internacional,12000
+4,Guadalajara,Nacional,3000
+5,París,Internacional,14000
+6,Monterrey,Nacional,3500
+7,Roma,Internacional,13000
+8,Querétaro,Nacional,2500
+9,Nueva York,Internacional,16000
+10,Puebla,Nacional,4000

@@ -1,0 +1,282 @@
+[
+{
+"nombre":"Marcos",
+"apellido1":"Magaña",
+"apellido2":"Perez",
+"extension":3897,
+"email":"marcos@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Director General"
+},
+{
+"nombre":"Ruben",
+"apellido1":"López",
+"apellido2":"Martinez",
+"extension":2899,
+"email":"rlopez@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Subdirector Marketing"
+},
+{
+"nombre":"Alberto",
+"apellido1":"Soria",
+"apellido2":"Carrasco",
+"extension":2837,
+"email":"asoria@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Subdirector Ventas"
+},
+{
+"nombre":"Maria",
+"apellido1":"Solís",
+"apellido2":"Jerez",
+"extension":2847,
+"email":"msolis@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Secretaria"
+},
+{
+"nombre":"Felipe",
+"apellido1":"Rosas",
+"apellido2":"Marquez",
+"extension":2844,
+"email":"frosas@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Juan Carlos",
+"apellido1":"Ortiz",
+"apellido2":"Serrano",
+"extension":2845,
+"email":"cortiz@jardineria.es",
+"codigoOficina":"TAL-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Carlos",
+"apellido1":"Soria",
+"apellido2":"Jimenez",
+"extension":2444,
+"email":"csoria@jardineria.es",
+"codigoOficina":"MAD-ES",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Mariano",
+"apellido1":"López",
+"apellido2":"Murcia",
+"extension":2442,
+"email":"mlopez@jardineria.es",
+"codigoOficina":"MAD-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Lucio",
+"apellido1":"Campoamor",
+"apellido2":"Martín",
+"extension":2442,
+"email":"lcampoamor@jardineria.es",
+"codigoOficina":"MAD-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Hilario",
+"apellido1":"Rodriguez",
+"apellido2":"Huertas",
+"extension":2444,
+"email":"hrodriguez@jardineria.es",
+"codigoOficina":"MAD-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Emmanuel",
+"apellido1":"Magaña",
+"apellido2":"Perez",
+"extension":2518,
+"email":"manu@jardineria.es",
+"codigoOficina":"BCN-ES",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"José Manuel",
+"apellido1":"Martinez",
+"apellido2":"De la Osa",
+"extension":2519,
+"email":"jmmart@hotmail.es",
+"codigoOficina":"BCN-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"David",
+"apellido1":"Palma",
+"apellido2":"Aceituno",
+"extension":2519,
+"email":"dpalma@jardineria.es",
+"codigoOficina":"BCN-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Oscar",
+"apellido1":"Palma",
+"apellido2":"Aceituno",
+"extension":2519,
+"email":"opalma@jardineria.es",
+"codigoOficina":"BCN-ES",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Francois",
+"apellido1":"Fignon",
+"apellido2":"",
+"extension":9981,
+"email":"ffignon@gardening.com",
+"codigoOficina":"PAR-FR",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Lionel",
+"apellido1":"Narvaez",
+"apellido2":"",
+"extension":9982,
+"email":"lnarvaez@gardening.com",
+"codigoOficina":"PAR-FR",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Laurent",
+"apellido1":"Serra",
+"apellido2":"",
+"extension":9982,
+"email":"lserra@gardening.com",
+"codigoOficina":"PAR-FR",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Michael",
+"apellido1":"Bolton",
+"apellido2":"",
+"extension":7454,
+"email":"mbolton@gardening.com",
+"codigoOficina":"SFC-USA",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Walter Santiago",
+"apellido1":"Sanchez",
+"apellido2":"Lopez",
+"extension":7454,
+"email":"wssanchez@gardening.com",
+"codigoOficina":"SFC-USA",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Hilary",
+"apellido1":"Washington",
+"apellido2":"",
+"extension":7565,
+"email":"hwashington@gardening.com",
+"codigoOficina":"BOS-USA",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Marcus",
+"apellido1":"Paxton",
+"apellido2":"",
+"extension":7565,
+"email":"mpaxton@gardening.com",
+"codigoOficina":"BOS-USA",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Lorena",
+"apellido1":"Paxton",
+"apellido2":"",
+"extension":7665,
+"email":"lpaxton@gardening.com",
+"codigoOficina":"BOS-USA",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Nei",
+"apellido1":"Nishikori",
+"apellido2":"",
+"extension":8734,
+"email":"nnishikori@gardening.com",
+"codigoOficina":"TOK-JP",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Narumi",
+"apellido1":"Riko",
+"apellido2":"",
+"extension":8734,
+"email":"nriko@gardening.com",
+"codigoOficina":"TOK-JP",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Takuma",
+"apellido1":"Nomura",
+"apellido2":"",
+"extension":8735,
+"email":"tnomura@gardening.com",
+"codigoOficina":"TOK-JP",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Amy",
+"apellido1":"Johnson",
+"apellido2":"",
+"extension":3321,
+"email":"ajohnson@gardening.com",
+"codigoOficina":"LON-UK",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Larry",
+"apellido1":"Westfalls",
+"apellido2":"",
+"extension":3322,
+"email":"lwestfalls@gardening.com",
+"codigoOficina":"LON-UK",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"John",
+"apellido1":"Walton",
+"apellido2":"",
+"extension":3322,
+"email":"jwalton@gardening.com",
+"codigoOficina":"LON-UK",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Kevin",
+"apellido1":"Fallmer",
+"apellido2":"",
+"extension":3210,
+"email":"kfalmer@gardening.com",
+"codigoOficina":"SYD-AU",
+"puesto":"Director Oficina"
+},
+{
+"nombre":"Julian",
+"apellido1":"Bellinelli",
+"apellido2":"",
+"extension":3211,
+"email":"jbellinelli@gardening.com",
+"codigoOficina":"SYD-AU",
+"puesto":"Representante Ventas"
+},
+{
+"nombre":"Mariko",
+"apellido1":"Kishi",
+"apellido2":"",
+"extension":3211,
+"email":"mkishi@gardening.com",
+"codigoOficina":"SYD-AU",
+"puesto":"Representante Ventas"
+}
+
+]

@@ -1,0 +1,3 @@
+Vendor:Realtek
+Category:LAN
+Module:RTL8111GUX

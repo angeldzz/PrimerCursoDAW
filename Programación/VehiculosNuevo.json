@@ -1,0 +1,44 @@
+{
+"nombre":"Juan",
+"apellidos":"García López",
+"direccion":"Calle Mayor, 12, 4-D",
+"cp":"12543",
+"ciudad":"Pamplona",
+"vehiculo":"furgoneta Mercedes Vito",
+"total":36000,
+"iva":7560
+}
+
+{
+"nombre":"Ana",
+"apellidos":"Hernández Jímenez",
+"direccion":"Calle Principal, 7, 1-I",
+"cp":"33204",
+"ciudad":"Valencia",
+"vehiculo":"Opel zafira",
+"total":20500,
+"iva":4305
+}
+
+{
+"nombre":"Jorge",
+"apellidos":"Navarro Bueno",
+"direccion":"Calle Estación, 3, 6-D",
+"cp":"21001",
+"ciudad":"León",
+"vehiculo":"Renault Altea",
+"total":19900,
+"iva":4179
+}
+
+{
+"nombre":"María",
+"apellidos":"Cordoba Martínez",
+"direccion":"Calle del Sol, s/n",
+"cp":"15303",
+"ciudad":"Madrid",
+"vehiculo":"furgoneta Opel",
+"total":29000,
+"iva":6090
+}
+

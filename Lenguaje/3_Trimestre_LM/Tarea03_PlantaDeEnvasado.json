@@ -1,0 +1,108 @@
+{
+    "contenedores": {
+        "contenedor": [
+            {
+                "tipo": "Grande",
+                "envase": [
+                    {
+                        "tipo": "Grande Ancho",
+                        "liquido": {
+                            "alimento": [
+                                "Agua",
+                                "Leche",
+                                "Aceite",
+                                "Vinagre"
+                            ]
+                        }
+                    },
+                    {
+                        "tipo": "Grande Alto",
+                        "liquido": {
+                            "alimento": [
+                                "Agua",
+                                "Leche",
+                                "Aceite",
+                                "Vinagre"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "tipo": "Mediano",
+                "envase": [
+                    {
+                        "tipo": "Mediano Ancho",
+                        "liquido": {
+                            "alimento": [
+                                "Agua",
+                                "Leche",
+                                "Aceite",
+                                "Vinagre"
+                            ]
+                        }
+                    },
+                    {
+                        "tipo": "Mediano Alto",
+                        "liquido": {
+                            "corrosivo": [
+                                "Lejía",
+                                "Amoniaco",
+                                "Jabón",
+                                "Aguarrás",
+                                "Gasolina",
+                                "Alcohol"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {                
+                "tipo": "Pequeño",
+                "envase":
+                    {
+                        "liquido": {
+                            "corrosivo": [
+                                "Lejía",
+                                "Amoniaco",
+                                "Jabón",
+                                "Aguarrás",
+                                "Gasolina",
+                                "Alcohol"
+                            ]
+                        }
+                   }
+            },
+            {
+                "tipo": "Vertical",
+                "envase":{
+                        "tipo":"Grande Alto",
+                        "liquido": {
+                            "alimento": [
+                                "Agua",
+                                "Leche",
+                                "Aceite",
+                                "Vinagre"
+                            ]
+                        }
+                   }
+            },
+            {
+                "tipo":"Mediano Alto",
+                "envase":{
+                    "tipo":"Mediano Alto",
+                    "liquido":{
+                        "corrosivo":[
+                            "Lejía",
+                            "Amoniaco",
+                            "Jabón",
+                            "Aguarrás",
+                            "Gasolina",
+                            "Alcohol"
+                        ]
+                    }
+                }                
+            }
+        ]
+    }
+}

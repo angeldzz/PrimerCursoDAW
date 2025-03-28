@@ -1,0 +1,18 @@
+
+img{
+    max-width:100px;
+    border-radius: 30px;
+}
+img:hover{
+    max-width: 110px;
+    border-radius: 30px;
+}
+p {
+    color: red;
+    font-size: 16px; /* Tamaño inicial */
+    transition: font-size 2s; /* Transición suave en 2 segundos */
+}
+
+.grow {
+    font-size: 32px; /* Tamaño final */
+}

@@ -1,0 +1,14 @@
+{
+    "consolas":[
+        {
+"Nombre":"Nintendo Switch",
+"Fabricante":"Nintendo",
+"lanzamiento":2017
+        },
+        {
+"Nombre":"Play Station 5",
+"Fabricante":"Sony",
+"lanzamiento":2020
+        }
+    ]
+}

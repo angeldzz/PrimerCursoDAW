@@ -1,0 +1,6 @@
+let nombre = prompt("Introduzca su nombre")
+alert(`Tu nombre es ${nombre}!`)
+let nacimiento = prompt("Cual es tu anio de nacimiento")
+alert(`Tu edad es ${2024-nacimiento}`)
+let acierto = confirm("He acertado?")
+alert(acierto)

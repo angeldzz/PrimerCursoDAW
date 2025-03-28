@@ -1,0 +1,68 @@
+{
+    "hogwarts": {
+        "firma": "Angel Pinto Diaz",
+        "enlace": "https://www.wizadingworld.com",
+        "casas": {
+            "escudo": [
+                "gryffindor.png",
+                "ravenclaw.png",
+                "hufflepuf.png",
+                "slytherin.png"
+            ]
+        },
+        "magos": [
+            {
+                "mago": [
+                    {
+                        "casa": 1,
+                        "ocupacion": "alumno",
+                        "mote": "El niño que sobrevivió",
+                        "nombre": "Harry Potter",
+                        "nacimiento": "31-07-1980",
+                        "CaracteristicasFisicas": {
+                            "pelo": "negro",
+                            "ojos": "verdes"
+                        },
+                        "CaracteristicasMagicas": {
+                            "Patronus": "ciervo",
+                            "varita": [
+                                "acebo",
+                                "sauco"
+                            ]
+                        }
+                    },
+                    {
+                        "casa": 1,
+                        "ocupacion": "profesor",
+                        "nombre": "Albus Dumbledore",
+                        "CaracteristicasFisicas": [
+                            {
+                                "ojos": "azul"
+                            },
+                            {
+                                "pelo": "plateado"
+                            }
+                        ],
+                        "CaracteristicasMagicas": {
+                            "Patronus": "fenix",
+                            "varita":"sauco"                            
+                        }
+                    },
+                    {
+                        "casa": 2,
+                        "ocupacion": "alumno",
+                        "mote":"Luna Lovengood",
+                        "nombre": "Luna Lovengood",
+                        "CaracteristicasFisicas":{
+                                "pelo": "rubio"
+                            }
+                        ,
+                        "CaracteristicasMagicas": {
+                            "Patronus": "Liebre"                           
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

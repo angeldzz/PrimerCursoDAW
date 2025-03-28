@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ppt.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="ppt.js"></script>
+    <div>
+        <h1>Contador victorias</h1>
+        <h2>Jugador:</h2>
+        <h2 id="vj">0</h2>
+        <h2>Robot: </h2>
+        <h2 id="vr">0</h2>
+    </div>
+    <div id="imagen">
+        <img src="piedra.png" alt="piedra" onclick="comprobarV(1)">
+        <img src="papel.jpg" alt="papel" onclick="comprobarV(2)">
+        <img src="tijera.png" alt="tijera" onclick="comprobarV(3)">
+    </div>
+    <p id="result"></p>
+    <p id="igualdad"></p>
+</body>
+</html>

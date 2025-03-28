@@ -1,0 +1,14 @@
+{
+    "persona": {
+      "nombre": "Angel",
+      "edad": 18,
+      "nacionalidad": "Española"
+    },
+    "Array": {
+      "nombres": [
+        "Juan",
+        "Jesus",
+        "Manolo"
+      ]
+    }
+  }

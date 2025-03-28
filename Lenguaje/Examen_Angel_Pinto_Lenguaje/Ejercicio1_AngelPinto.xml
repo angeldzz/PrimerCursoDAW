@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Angel Pinto Diaz -->
+
+<!-- <!DOCTYPE hogwarts SYSTEM "Ejercicio2_AngelPinto.dtd"> -->
+ <hogwarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Ejercicio3_AngelPinto1.xsd" firma="Angel" enlace="https://wizardingworld.com">
+<casas>
+    <casa escudo="gryffindor.png"/>
+    <casa escudo="revenclaw.png"/>
+    <casa escudo="hufflepuf.png"/>
+    <casa escudo="slytherin.png"/>
+</casas>
+<magos>
+    <mago casa="1" ocupacion="alumno" mote="El niño que sobrevivió">
+        <nombre>Harry Potter</nombre>
+        <nacimiento>1980-07-31</nacimiento>
+        <Caracteristicasfisicas>
+            <pelo>negro</pelo>
+            <ojos>Verdes</ojos>
+        </Caracteristicasfisicas>
+        <Caracteristicasmagicas>
+            <Patronus>ciervo</Patronus>
+            <varita>acebo</varita>
+            <varita>Sauco</varita>
+        </Caracteristicasmagicas>
+    </mago>
+    <mago casa="1" ocupacion="profesor">
+        <nombre>Albus Dumbledore</nombre>
+        <Caracteristicasfisicas>
+            <ojos>azul</ojos>
+        </Caracteristicasfisicas>
+        <Caracteristicasfisicas>
+            <pelo>plateado</pelo>
+        </Caracteristicasfisicas>
+        <Caracteristicasmagicas>
+            <Patronus>feniz</Patronus>
+            <varita>Sauco</varita>
+        </Caracteristicasmagicas>
+    </mago>
+    <mago casa="2" ocupacion="alumno" mote="Lunatica Lovengood">
+        <nombre>Luna Lovengood</nombre>
+        <Caracteristicasfisicas>
+            <pelo>rubio</pelo>
+        </Caracteristicasfisicas>
+        <Caracteristicasmagicas>
+            <Patronus>Liebre</Patronus>
+        </Caracteristicasmagicas>
+    </mago>
+</magos>
+</hogwarts>

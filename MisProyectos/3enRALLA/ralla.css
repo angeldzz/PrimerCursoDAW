@@ -1,0 +1,66 @@
+/* Centrando el contenedor principal */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fondo claro para un mejor contraste */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fuente más moderna */
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 48px; /* Aumentar el tamaño de la fuente */
+    color: #4b0082; /* Título en color morado oscuro */
+    font-weight: bold; /* Hacer el texto más grueso */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar sombra al texto */
+    margin: 0; /* Quitar márgenes */
+    padding: 10px; /* Agregar padding */
+    border-bottom: 2px solid #4b0082; /* Línea inferior para separar el título */
+}
+
+header h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para la botonera */
+.botones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Grilla de 3x3 */
+    gap: 10px;
+}
+
+/* Estilos generales para todos los botones dentro de .botones */
+.botones button {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    padding: 20px; /* Aumentar el padding para hacer el botón más grande */
+    font-size: 24px; /* Aumentar el tamaño de la fuente */
+    border: none; /* Remover el borde */
+    border-radius: 50%; /* Bordes redondeados */
+    width: 70px; /* Establecer un ancho fijo */
+    height: 70px; /* Establecer una altura fija */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transición para cambios de color y tamaño */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de elevación */
+}
+
+/* Efectos al pasar el ratón por encima de los botones */
+.botones button:hover {
+    background-color: #9370db; /* Color morado claro al pasar el ratón */
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño al pasar el ratón */
+}
+
+/* Efectos al hacer clic en los botones */
+.botones button:active {
+    transform: scale(0.95); /* Reducir ligeramente el tamaño al hacer clic */
+    background-color: #6a5acd; /* Color morado oscuro al hacer clic */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reducir la sombra al hacer clic */
+}

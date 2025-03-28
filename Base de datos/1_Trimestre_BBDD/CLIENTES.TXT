@@ -1,0 +1,12 @@
+Juan Martínez
+Calle del Pez, 5
+Madrid
+<FIN>
+Comercial Martínez
+Calle de la Cuesta, 10
+Sevilla
+<FIN>
+José Sánchez
+Calle Mayor, 7
+Salamanca
+<FIN>

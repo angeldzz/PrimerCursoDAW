@@ -1,0 +1,61 @@
+nav {
+    position: relative;
+    height: 70px;
+}
+
+ul.menu {
+    position: absolute;
+    left: 500px;
+
+}
+
+li.menu {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+}
+
+li.menu:hover {
+    background-color: rgba(133, 133, 133, 0.671);
+}
+
+article#tb {
+    position: relative;
+    height: 300px;
+    background-color: #7a7777;
+}
+
+div#tabla {
+    top: 20px;
+    position: absolute;
+    left: 600px;
+}
+
+a {
+    font-weight: bolder;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+table {
+    border: 3px solid #000000;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.izq {
+    text-align: left;
+}
+
+img.horario {
+    height: 100px;
+    width: 200px;
+}
